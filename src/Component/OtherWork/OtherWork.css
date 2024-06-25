@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.OtherWork_parent{
+    margin-top: 100px;
+    padding: 1em;
+}
+
+.OtherWork_title{
+    font-size: 2em;
+    text-align: center;
+    color: #07060d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.OtherWork_subheadings{
+    color: #170e46;
+    font-size: 1.5em;
+}
+.OtherWork_description{
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+}
+
+.OtherWork_notes{
+    color: #e89614;
+
+}
+.OtherWork_bullet-list{
+    list-style-type: disc;
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+}

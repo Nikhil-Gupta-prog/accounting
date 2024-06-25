@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.Accounting_parent{
+    margin-top: 100px;
+    padding: 1em;
+}
+
+.Accounting_title{
+    font-size: 2em;
+    text-align: center;
+    color: #07060d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.Accounting_description{
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+}
+
+.Accounting_bullet-list{
+    list-style-type: disc;
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+}
+
+.Accounting_subheading-2{
+    color: #e89614;
+}
+
+.Accounting_note{
+    color: #07060d;
+    font-size: 1.2;
+    font-weight: 600;
+
+}

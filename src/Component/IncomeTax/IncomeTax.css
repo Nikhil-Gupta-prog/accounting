@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.Income_Tax_parent{
+    margin-top: 100px;
+    padding: 1em;
+}
+
+.Income_Tax_title{
+    font-size: 2em;
+    text-align: center;
+    color: #07060d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.Income_Tax_subheading{
+    color: #170e46;
+    font-size: 1.5em;
+}
+
+.Income_Tax_description{
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+}
+.bullet-list {
+    list-style-type: disc;
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+  }
+  

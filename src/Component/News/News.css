@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.News_parent {
+  margin-top: 100px;
+  padding: 1em;
+}
+
+.News_title {
+  font-size: 2em;
+  text-align: center;
+  color: #07060d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+}
+
+.News_subparent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 5em;
+}
+
+.News_card_list{
+   margin: 20px;
+}
+
+.LoadingDiv{
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

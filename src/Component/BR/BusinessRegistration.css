@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+.BR_parent{
+    margin-top: 100px;
+    padding: 1em;
+}
+
+.BR_title{
+    font-size: 3em;
+    text-align: center;
+    color: #07060d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.BR_heading{
+    color: #170e46;
+}
+
+.BR_subheading{
+    color: #e89614;
+
+}
+
+.BR_bullet-point{
+    list-style-type: disc;
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+}

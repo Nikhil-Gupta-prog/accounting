@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  height: 100vh;
+}
+
+.comapanyNameDiv {
+  position: absolute;
+  top: 18%;
+  left: 1%;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.comapanyName {
+  color: #e89614;
+  font-size: 4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #170e46;
+}
+
+.carousel_text {
+  position: absolute;
+  top: 68%;
+  left: 1%;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.tagline {
+  background-color: #e89714a7;
+  color: #170e46;
+  font-size: 2em;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+.subtagline {
+  background-color: #fff;
+  color: #e89614;
+  font-size: 1.5em;
+  margin-top: 5px;
+  padding: 10px;
+  font-family: Roboto, sans-serif;
+}

@@ -1,0 +1,135 @@
+
+
+
+
+.proPic {
+    height: 140px;
+    width: 140px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .proDark {
+    border: 1px solid rgb(36, 18, 116);
+  }
+  
+  .proLight {
+    border: 1px solid black;
+  }
+  
+  .cardBorderCorners {
+    border-radius: 50px 25px;
+    width: 18rem;
+  }
+  
+  .darkCard {
+     background-color: #d0d0dd; 
+    margin: 20px auto;
+    width: 380px;
+    border: 1px solid #25235c ;
+  }
+  
+  .lightCard {
+    background-color: #ffffff;
+  }
+  
+  .darkTitle {
+    margin-top: 10px;
+    color:  #25235c;
+    text-align: center;
+  }
+  
+  .lightTitle {
+    margin-top: 10px;
+    color: #2c2c2c;
+    text-align: center;
+  }
+  
+  .darkSubTitle {
+    color: #7e76b6;
+    text-align: center;
+  }
+  
+  .lightSubTitle {
+    color: #37355b;
+    text-align: center;
+  }
+  
+  .darkDesc {
+    margin-top: 20px;
+    color: #b8b7d3;
+    text-align: center;
+  }
+  
+  .lightDesc {
+    margin-top: 20px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .darkMail {
+    margin-top: 20px;
+    color: #dedcf4;
+    text-align: center;
+  }
+  
+  .lightMail {
+    margin-top: 20px;
+    color: #c2c2e0;
+    text-align: center;
+  }
+  
+  .darkMailText {
+    padding: 5px;
+    background-color: #6b62b9;
+  }
+  
+  .lightMailText {
+    padding: 5px;
+    background-color: #25235c;
+  }
+  
+  .social {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .social_media_icon{
+    margin: 4px 10px;
+   
+  }
+  .social_media_icon .icon{
+    font-size: 40px;
+    color:  #25235c;
+  }
+  
+  .attributeText {
+    margin-top: 20px;
+    text-align: center;
+    color: #25235c;
+  }
+
+@media screen and (max-width: 769px) {
+  .darkCard {
+   background-color: #d0d0dd; 
+   margin: 20px 0;
+   width: 270px;
+   border: 1px solid #25235c ;
+ }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.NewsCard_title{
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #07060d;
+  font-family: Roboto, sans-serif;
+}
+.newsImage{
+  width: 100%;
+  min-width: 375px;
+}

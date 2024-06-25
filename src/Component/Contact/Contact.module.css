@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.Contact_parent {
+  margin-top: 100px;
+}
+
+.sec_3_heading {
+  margin-top: 30px;
+  text-align: center;
+}
+.sec_3_heading p {
+  font-weight: 600;
+  font-family: "Roboto";
+  font-size: 3em;
+  color: #231e39;
+}
+
+.icons {
+  font-size: 2em;
+}
+.icons_child {
+  margin: 1rem;
+}
+
+.success_msg {
+  margin: 1rem 0;
+  height: 7rem;
+  width: 24rem;
+  padding: 2em;
+  background-color: #004953;
+  border-radius: 1rem;
+  border: 1px solid;
+  color: #fff;
+  box-shadow: 0px 1px 0px;
+  font-size: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.parent_con {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.child_con {
+  margin-bottom: 3rem;
+  margin-top: 1em;
+
+  padding: 1em;
+}
+.child_conPart1 {
+  width: 300px;
+  margin: 20px 47px;
+}
+
+.child_conPart1_heading {
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  color: #231e39;
+  font-weight: 900;
+  padding: 1em 0;
+  margin: 3em 0;
+}
+.mailbox {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding-left: 16px;
+}
+.call {
+  margin: 0;
+  padding-left: 16px;
+}
+.icons_child {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .child_con {
+    margin-bottom: 3rem;
+    margin-top: 1em;
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .child_con {
+    margin-bottom: 3rem;
+    margin-left: 0.4em;
+  }
+}

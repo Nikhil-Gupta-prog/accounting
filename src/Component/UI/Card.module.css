@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.card {
+  width: 25rem;
+  border: 1px solid #170e46;
+  z-index: 3;
+  background-color: #f0ebe9;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.box img {
+  width: 34%;
+  height: 100px;
+  padding: 5px 0;
+}
+
+.iconDiv{
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.iconSpan{
+  border: 1px solid;
+  text-align: center;
+  width: 3em;
+  background-color: #170e46;
+  border-radius: 7%;
+}
+
+.box .post {
+  font-size: 13px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  display: block;
+}
+
+.cardBody {
+  padding: 8px;
+}
+.heading {
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 0.6em;
+  font-size: 15px;
+  font-family: Roboto, sans-serif;
+}
+
+.fbox {
+  width: 50%;
+  height: 30%;
+}
+@media only screen and (max-width: 990px) {
+  .box {
+    margin: 0 0 30px;
+  }
+  .card {
+    width: 14rem;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .card {
+    width: 18rem;
+  }
+}
+
+.title {
+  text-align: left;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+.Content {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

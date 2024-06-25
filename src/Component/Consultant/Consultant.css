@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.Consultant_parent{
+    margin: 50px;
+    background-color: #e89614;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding: 1em;
+}
+
+.Consultant_title{
+    text-align: center;
+    font-weight: 600;
+    color:#231E39;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Consultant_button{
+    width: 150px;
+    font-size: 1.5em;
+    background: #231E39;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.Consultant_button:hover{
+    color: #e89614;
+}

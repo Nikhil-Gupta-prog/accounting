@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.GST_Parent{
+    margin-top: 100px;
+    padding: 1em;
+}
+.GST_title{
+    font-size: 2em;
+    text-align: center;
+    color: #07060d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+
+}
+
+.GST_subheadings{
+    color: #170e46;
+    
+}
+
+.GST_subpoints{
+    color: #e89614;
+}
+
+.GST_bullet-list {
+    list-style-type: disc;
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+}
+  
+.GST_para{
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+}

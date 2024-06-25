@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap");
+
+
+
+.Service_parent{
+    margin-top: 70px;
+    padding: 1em;
+}
+
+.Service_title{
+    font-size: 3em;
+    text-align: center;
+    color: #07060d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.Service_parent2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.child_pro {
+  list-style: none;
+  margin: 30px;
+  
+}
+
+.service{
+  text-decoration: none;
+  color: #000;
+}
+.service:hover{
+  color: #000;
+}
+
+.Service_subtitle{
+  color: #e89614;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.Service_description{
+  padding: 10px;
+  line-height: 1;
+  font-size: 1.2em;
+  color: #07060d;
+}

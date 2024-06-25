@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.Footer_parent {
+    height: auto;
+    border: 2px solid #e89614;
+    background-color: #28223F;
+    display: flex;
+    padding: 0 28px;
+    /* flex-wrap: nowrap; */
+    align-content: center;
+    justify-content: space-between;
+}
+
+.Footer_subparenet1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer_title {
+    font-size: 1.9em;
+    font-family: Roboto, sans-serif;
+    color: #e89614;
+    font-weight: bold;
+}
+
+.icons {
+    font-size: 2em;
+}
+
+.icons_child {
+    margin: 1rem;
+}
+
+
+.child_con {
+    margin-bottom: 3rem;
+    margin-top: 1em;
+}
+
+.child_conPart1 {
+    width: 300px;
+    margin: 20px 47px;
+}
+
+.child_conPart1_heading {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    color: #e89614;
+    font-weight: 900;
+    padding: 1em 0;
+    margin: 3em 0;
+}
+
+.mailbox {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    color: #fff;
+    padding-left: 16px;
+}
+
+.call {
+    margin: 0;
+    padding-left: 16px;
+    color: #fff;
+}
+
+.icons_child {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .child_con {
+        margin-bottom: 3rem;
+        margin-top: 1em;
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .child_con {
+        margin-bottom: 3rem;
+        margin-left: 0.4em;
+    }
+}
